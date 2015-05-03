@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'docx/form/merger/version'
+require 'docx-form-merger/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "docx-form-merger"
-  spec.version       = Docx::Form::Merger::VERSION
+  spec.version       = DocxFormMerger::VERSION
   spec.authors       = ["mh61503891"]
   spec.email         = ["mh.on.web@gmail.com"]
 
