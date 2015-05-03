@@ -1,0 +1,17 @@
+PATH
+  remote: .
+  specs:
+    docx-form-merger (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rake (10.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (~> 1.9)
+  docx-form-merger!
+  rake (~> 10.0)
